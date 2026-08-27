@@ -1,0 +1,16 @@
+# Free hosting blueprint for Render.com — one web service, free plan.
+# The service name becomes the public link: https://vesper.onrender.com
+services:
+  - type: web
+    name: vesper
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run server
+    healthCheckPath: /api/status
+    envVars:
+      - key: NODE_ENV
+        value: production
+      # Optional: a Roblox Open Cloud key. Leave unset to use public endpoints.
+      - key: ROBLOX_API_KEY
+        sync: false

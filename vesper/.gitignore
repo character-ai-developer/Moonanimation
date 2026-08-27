@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.tmp-tests/
+.env
+.env.local
+*.log

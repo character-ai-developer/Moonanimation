@@ -1,0 +1,55 @@
+{
+  "categories": {
+    "Default": {
+      "name": "Default",
+      "accounts": {}
+    },
+    "High RAP": {
+      "name": "High RAP",
+      "accounts": {
+        "261": {
+          "id": "261",
+          "username": "Shedletsky",
+          "displayName": "Shedletsky",
+          "created": "2006-06-22",
+          "rap": "13,454,866",
+          "verified": "Yes",
+          "banned": "No",
+          "active": "Yes",
+          "hats": "776",
+          "badges": [
+            "Veteran",
+            "Bloxxer"
+          ],
+          "note": "updated note",
+          "avatarUrl": null,
+          "lastChecked": null,
+          "inventorySummary": null,
+          "savedAt": "2026-08-27T10:47:59.239Z"
+        }
+      }
+    },
+    "Junk": {
+      "name": "Junk",
+      "accounts": {
+        "999": {
+          "id": "999",
+          "username": "Good",
+          "displayName": "",
+          "created": "",
+          "rap": "5",
+          "verified": "",
+          "banned": "",
+          "active": "",
+          "hats": "",
+          "badges": [],
+          "note": "",
+          "avatarUrl": null,
+          "lastChecked": null,
+          "inventorySummary": null,
+          "savedAt": "2026-08-27T10:47:59.299Z"
+        }
+      }
+    }
+  }
+}
